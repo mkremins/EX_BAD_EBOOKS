@@ -5,12 +5,17 @@
         [twitter.api.restful])
   (:gen-class))
 
-(def ^dynamic *creds*)
+(def creds
+  (make-oauth-creds
+    (System/getenv "EBOOKS_CONSUMER_KEY")
+    (System/getenv "EBOOKS_CONSUMER_SECRET")
+    (System/getenv "EBOOKS_OAUTH_TOKEN")
+    (System/getenv "EBOOKS_OAUTH_TOKEN_SECRET")))
 
 (defn tweet [_ _]
   (let [status (emit error)]
     (println (str "Tweeting: " status))
-    (statuses-update :oauth-creds *creds* :params {:status status})))
+    (statuses-update :oauth-creds creds :params {:status status})))
 
 (def scheduler
   (cronj :entries [{:id "tweet-task"
@@ -19,11 +24,5 @@
 
 (defn -main []
   (println "Starting up...")
-  (set! *creds*
-    (make-oauth-creds
-      (System/getenv "EBOOKS_CONSUMER_KEY")
-      (System/getenv "EBOOKS_CONSUMER_SECRET")
-      (System/getenv "EBOOKS_OAUTH_TOKEN")
-      (System/getenv "EBOOKS_OAUTH_TOKEN_SECRET")))
   (start! scheduler)
   (println "Started!"))

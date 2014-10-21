@@ -1,4 +1,4 @@
-(ns cryptic.core
+(ns cryptic.emit
   (:require [clojure.string :as str]))
 
 (defn prefix []
@@ -9,7 +9,8 @@
 
 (defn badjective []
   [:choose
-    "no such" "bad" "invalid" "illegal" "improper" "missing" "incorrect"])
+    "no such" "bad" "invalid" "illegal" "improper" "missing" "incorrect"
+    "insufficient" "ambiguous" "malformed"])
 
 (defn noun []
   [:choose
@@ -27,7 +28,17 @@
     "anomaly" "prophecy" "operator" "functor" "application" "thread" "process"
     "overflow" "jail" "escape" "recursion" "depth" "vector" "window"
     "component" "operand" "machinery" "pipe" "widget" "spell" "arrow"
-    "database" "package" "statement" "expression"])
+    "database" "package" "statement" "expression" "justification" "parse"
+    "tree" "parser" "analyzer" "loader" "linker" "library" "module" "routine"
+    "class" "hierarchy" "attribute" "method" "callback" "monad" "architecture"
+    "target" "assembler" "language" "line" "column" "row" "scope" "closure"
+    "binding" "abstraction" "entry" "token" "trace" "hack" "dependency"
+    "resolution" "keyword" "stopword" "atom" "procedure" "directory" "mode"
+    "user" "flag" "box" "property" "phrase" "traceback" "stack" "heap"
+    "state" "arity" "leaf" "signal" "password" "character" "factory" "filter"
+    "lambda" "recipe" "transducer" "system" "interface" "implementation"
+    "logic" "form" "syntax" "icon" "effigy" "comment" "document" "namespace"
+    "primitive" "lexer" "reader" "loop" "event" "predicate" "promise"])
 
 (defn subordinate-clause []
   [:choose
