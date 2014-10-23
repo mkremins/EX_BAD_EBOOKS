@@ -9,7 +9,7 @@
 
 (def badjectives
   ["bad" "invalid" "illegal" "improper" "missing" "incorrect" "insufficient"
-   "ambiguous" "malformed"])
+   "ambiguous" "malformed" "deprecated"])
 
 (defn badjective' []
   (rand-nth (conj badjectives "no such")))
@@ -33,7 +33,8 @@
    "perverse" "defiant" "difficult" "wayward" "misleading" "inferior"
    "laborious" "stereotypical" "obscure" "inscrutable" "excruciating"
    "phosphorescent" "unfinished" "unbalanced" "impartial" "unqualified"
-   "derivative" "unoriginal" "particulate"])
+   "derivative" "unoriginal" "particulate" "precarious" "unsubtle"
+   "androgynous" "insidious" "insipid" "infallible"])
 
 (defn weirdjective []
   (rand-nth weirdjectives))
@@ -64,10 +65,31 @@
    "lambda" "recipe" "transducer" "system" "interface" "implementation"
    "logic" "form" "syntax" "icon" "effigy" "comment" "document" "namespace"
    "primitive" "lexer" "reader" "loop" "event" "predicate" "promise" "job"
-   "rune" "monolith" "judge" "spline"])
+   "rune" "monolith" "judge" "spline" "status" "relationship" "trust" "key"
+   "index" "portal" "gate" "commit" "constructor" "destructor" "zine"])
 
 (defn noun []
   (rand-nth nouns))
+
+(def verbs
+  ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
+   "disentangle" "splice" "cause" "invent" "devise" "derive" "signify"
+   "attempt" "handle" "hack" "elucidate" "falsify" "negate" "perform" "operate"
+   "articulate" "remove" "insert" "delete" "erase" "swap" "clone" "jump to"
+   "slice" "inspect" "examine" "calcify" "separate" "disambiguate" "call"
+   "invoke" "reincarnate" "update" "dissociate" "associate" "surround"
+   "consume" "parse" "lex" "tokenize" "analyze" "compile" "link" "send" "pass"
+   "recur to" "imply" "infer" "reify" "realize" "specify" "conform to"
+   "comply with" "speculate on" "project" "protect" "escape" "imprison" "stop"
+   "quit" "prevent" "validate" "comprehend" "impregnate" "endure" "accept"
+   "contend with" "ameliorate" "problematize" "criticize" "systematize"
+   "enshrine" "elevate" "embrace" "discard" "renege on" "betray" "ignore"
+   "question" "push" "extinguish" "revise" "envision" "memoize" "amortize"
+   "write" "read" "receive" "enjoy" "redirect" "tolerate" "commit" "render"
+   "imprecate" "utter" "disestablish" "excommunicate" "understand" "present"])
+
+(defn verb []
+  (rand-nth verbs))
 
 (defn subordinate-clause []
   [:choose
@@ -93,8 +115,12 @@
           (rand-nth ["error" "exception"])
           ":"])))
 
+(defn couldnt-clause []
+  [:span "couldn't" verb [:choose weirdjective badjective :nil :nil]
+         (str (noun) ":")])
+
 (defn midfix []
-  [:choose camel-case-exception :nil :nil])
+  [:choose camel-case-exception couldnt-clause :nil :nil :nil])
 
 (defn suffix []
   [:choose
