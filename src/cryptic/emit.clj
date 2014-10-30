@@ -66,7 +66,9 @@
    "logic" "form" "syntax" "icon" "effigy" "comment" "document" "namespace"
    "primitive" "lexer" "reader" "loop" "event" "predicate" "promise" "job"
    "rune" "monolith" "judge" "spline" "status" "relationship" "trust" "key"
-   "index" "portal" "gate" "commit" "constructor" "destructor" "zine"])
+   "index" "portal" "gate" "commit" "constructor" "destructor" "zine" "missive"
+   "briefing" "journal" "observer" "panoply" "panopticon" "pension" "witness"
+   "macro" "suspicion" "hypotenuse"])
 
 (defn noun []
   (rand-nth nouns))
@@ -86,7 +88,12 @@
    "enshrine" "elevate" "embrace" "discard" "renege on" "betray" "ignore"
    "question" "push" "extinguish" "revise" "envision" "memoize" "amortize"
    "write" "read" "receive" "enjoy" "redirect" "tolerate" "commit" "render"
-   "imprecate" "utter" "disestablish" "excommunicate" "understand" "present"])
+   "imprecate" "utter" "disestablish" "excommunicate" "understand" "present"
+   "force" "forecast" "evoke" "downcast" "foretell" "foresee" "forfeit"
+   "forfend" "grok" "eviscerate" "elide" "emit" "omit" "transcend" "reduce"
+   "conduct" "eject" "ensure" "verify" "demarcate" "perceive" "conceive"
+   "dismiss" "downplay" "exceed" "enthrall" "stigmatize" "intercept"
+   "establish" "clarify" "revive" "relinquish" "guess" "eliminate" "unwrap"])
 
 (defn verb []
   (rand-nth verbs))
