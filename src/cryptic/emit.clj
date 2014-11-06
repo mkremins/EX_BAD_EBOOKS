@@ -101,7 +101,10 @@
    "dismiss" "downplay" "exceed" "enthrall" "stigmatize" "intercept"
    "establish" "clarify" "revive" "relinquish" "guess" "eliminate" "unwrap"
    "expunge" "describe" "enumerate" "lock" "encase" "encapsulate" "enclose"
-   "count" "suggest" "explain" "convince" "persuade"])
+   "count" "suggest" "explain" "convince" "persuade" "preempt" "forestall"
+   "acquire" "appropriate" "abscond with" "elope with" "grasp" "seize" "occupy"
+   "inhabit" "commandeer" "arrogate" "usurp" "reserve" "evince" "indicate"
+   "manifest" "exhibit" "display"])
 
 (defn verb []
   (rand-nth verbs))
