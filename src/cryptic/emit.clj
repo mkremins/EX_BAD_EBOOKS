@@ -34,7 +34,10 @@
    "laborious" "stereotypical" "obscure" "inscrutable" "excruciating"
    "phosphorescent" "unfinished" "unbalanced" "impartial" "unqualified"
    "derivative" "unoriginal" "particulate" "precarious" "unsubtle"
-   "androgynous" "insidious" "insipid" "infallible"])
+   "androgynous" "insidious" "insipid" "infallible" "optional" "impossible"
+   "innumerable" "numberless" "suggestive" "autosomal" "dominant" "somnolent"
+   "ambulatory" "fastidious" "persnickety" "inexplicable" "obsolete" "ancient"
+   "outdated" "domestic" "deviant" "immodest"])
 
 (defn weirdjective []
   (rand-nth weirdjectives))
@@ -68,10 +71,13 @@
    "rune" "monolith" "judge" "spline" "status" "relationship" "trust" "key"
    "index" "portal" "gate" "commit" "constructor" "destructor" "zine" "missive"
    "briefing" "journal" "observer" "panoply" "panopticon" "pension" "witness"
-   "macro" "suspicion" "hypotenuse"])
+   "macro" "suspicion" "hypotenuse" "option" "world" "pointer" "counter" "lock"
+   "gesture" "meaning" "content" "shader" "fragment"])
 
 (defn noun []
-  (rand-nth nouns))
+  (if (> (rand) 0.75)
+    (str (rand-nth nouns) " " (rand-nth nouns))
+    (rand-nth nouns)))
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -93,7 +99,9 @@
    "forfend" "grok" "eviscerate" "elide" "emit" "omit" "transcend" "reduce"
    "conduct" "eject" "ensure" "verify" "demarcate" "perceive" "conceive"
    "dismiss" "downplay" "exceed" "enthrall" "stigmatize" "intercept"
-   "establish" "clarify" "revive" "relinquish" "guess" "eliminate" "unwrap"])
+   "establish" "clarify" "revive" "relinquish" "guess" "eliminate" "unwrap"
+   "expunge" "describe" "enumerate" "lock" "encase" "encapsulate" "enclose"
+   "count" "suggest" "explain" "convince" "persuade"])
 
 (defn verb []
   (rand-nth verbs))
