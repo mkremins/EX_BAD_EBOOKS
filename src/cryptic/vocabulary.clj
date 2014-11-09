@@ -1,21 +1,8 @@
-(ns cryptic.emit
-  (:require [clojure.string :as str]))
-
-(defn prefix []
-  [:choose
-    [:choose "[ERROR]" "[WARN]" "[FAIL]" "[PANIC]"]
-    [:choose "Error:" "Warning:" "Exception:"]
-    :nil])
+(ns cryptic.vocabulary)
 
 (def badjectives
   ["bad" "invalid" "illegal" "improper" "missing" "incorrect" "insufficient"
    "ambiguous" "malformed" "deprecated"])
-
-(defn badjective' []
-  (rand-nth (conj badjectives "no such")))
-
-(defn badjective []
-  (rand-nth badjectives))
 
 (def weirdjectives
   ["ambitious" "operatic" "cryptic" "arcane" "archaic" "deliberate" "malicious"
@@ -38,9 +25,6 @@
    "innumerable" "numberless" "suggestive" "autosomal" "dominant" "somnolent"
    "ambulatory" "fastidious" "persnickety" "inexplicable" "obsolete" "ancient"
    "outdated" "domestic" "deviant" "immodest"])
-
-(defn weirdjective []
-  (rand-nth weirdjectives))
 
 (def nouns
   ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
@@ -74,11 +58,6 @@
    "macro" "suspicion" "hypotenuse" "option" "world" "pointer" "counter" "lock"
    "gesture" "meaning" "content" "shader" "fragment"])
 
-(defn noun []
-  (if (> (rand) 0.75)
-    (str (rand-nth nouns) " " (rand-nth nouns))
-    (rand-nth nouns)))
-
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
    "disentangle" "splice" "cause" "invent" "devise" "derive" "signify"
@@ -105,57 +84,3 @@
    "acquire" "appropriate" "abscond with" "elope with" "grasp" "seize" "occupy"
    "inhabit" "commandeer" "arrogate" "usurp" "reserve" "evince" "indicate"
    "manifest" "exhibit" "display"])
-
-(defn verb []
-  (rand-nth verbs))
-
-(defn subordinate-clause []
-  [:choose
-    [:span "for" noun]
-    [:span "of" noun]
-    [:span "in" noun]
-    [:span "at" noun]
-    :nil :nil :nil])
-
-(defn upcase [s]
-  (if (empty? s)
-    s
-    (str (str/upper-case (str (first s)))
-         (str/join (rest s)))))
-
-(defn camel-case-exception []
-  (str/join
-    (map upcase
-         [(if (> (rand) 0.5)
-            (if (> (rand) 0.5) (badjective) "")
-            (weirdjective))
-          (rand-nth nouns)
-          (rand-nth ["error" "exception"])
-          ":"])))
-
-(defn couldnt-clause []
-  [:span "couldn't" verb [:choose weirdjective badjective :nil :nil]
-         (str (noun) ":")])
-
-(defn midfix []
-  [:choose camel-case-exception couldnt-clause :nil :nil :nil])
-
-(defn suffix []
-  [:choose
-    (str "(" (rand-int 500) ":" (rand-int 100) ")")
-    :nil :nil])
-
-(defn error []
-  [:span prefix midfix badjective' noun subordinate-clause suffix])
-
-(defn emit [doc]
-  (cond
-    (vector? doc)
-      (let [[op & children] doc]
-        (case op
-          :choose (recur (rand-nth children))
-          :span (str/join " " (remove empty? (map emit children)))
-          :nil ""))
-    (fn? doc) (recur (doc))
-    (keyword? doc) (recur [doc])
-    (string? doc) doc))

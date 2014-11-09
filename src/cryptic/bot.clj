@@ -1,5 +1,5 @@
 (ns cryptic.bot
-  (:require [cryptic.emit :refer [emit error]]
+  (:require [cryptic.generate :as gen]
             [cronj.core :refer [cronj start!]])
   (:use [twitter.oauth]
         [twitter.api.restful])
@@ -13,7 +13,7 @@
     (System/getenv "EBOOKS_OAUTH_TOKEN_SECRET")))
 
 (defn tweet [_ _]
-  (let [status (emit error)]
+  (let [status (gen/error)]
     (println (str "Tweeting: " status))
     (statuses-update :oauth-creds creds :params {:status status})))
 
