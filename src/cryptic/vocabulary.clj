@@ -24,7 +24,8 @@
    "androgynous" "insidious" "insipid" "infallible" "optional" "impossible"
    "innumerable" "numberless" "suggestive" "autosomal" "dominant" "somnolent"
    "ambulatory" "fastidious" "persnickety" "inexplicable" "obsolete" "ancient"
-   "outdated" "domestic" "deviant" "immodest"])
+   "outdated" "domestic" "deviant" "immodest" "foreign" "sturdy" "impressive"
+   "significant" "recursive" "patriarchal" "violent" "merciful" "lewd" "rude"])
 
 (def nouns
   ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
@@ -56,7 +57,10 @@
    "index" "portal" "gate" "commit" "constructor" "destructor" "zine" "missive"
    "briefing" "journal" "observer" "panoply" "panopticon" "pension" "witness"
    "macro" "suspicion" "hypotenuse" "option" "world" "pointer" "counter" "lock"
-   "gesture" "meaning" "content" "shader" "fragment"])
+   "gesture" "meaning" "content" "shader" "fragment" "subordinate" "selection"
+   "election" "booth" "limb" "whim" "cognate" "injury" "bridge" "penalty"
+   "blueprint" "flange" "body" "flesh" "fringe" "genius" "kind" "urge"
+   "paradigm" "gem" "snake" "pod" "role"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -83,4 +87,7 @@
    "count" "suggest" "explain" "convince" "persuade" "preempt" "forestall"
    "acquire" "appropriate" "abscond with" "elope with" "grasp" "seize" "occupy"
    "inhabit" "commandeer" "arrogate" "usurp" "reserve" "evince" "indicate"
-   "manifest" "exhibit" "display"])
+   "manifest" "exhibit" "display" "translate" "bind" "subvert" "find" "locate"
+   "select" "reject" "detect" "inject" "elect" "poll" "afflict" "inflict"
+   "design" "prepare" "partition" "subjugate" "improve" "suppress" "subdue"
+   "furnish" "announce" "denounce" "deny"])
