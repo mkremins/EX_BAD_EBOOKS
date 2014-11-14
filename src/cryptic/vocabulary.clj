@@ -25,7 +25,10 @@
    "innumerable" "numberless" "suggestive" "autosomal" "dominant" "somnolent"
    "ambulatory" "fastidious" "persnickety" "inexplicable" "obsolete" "ancient"
    "outdated" "domestic" "deviant" "immodest" "foreign" "sturdy" "impressive"
-   "significant" "recursive" "patriarchal" "violent" "merciful" "lewd" "rude"])
+   "significant" "recursive" "patriarchal" "violent" "merciful" "lewd" "rude"
+   "reclusive" "innocuous" "staid" "vituperative" "abrasive" "disheveled"
+   "incoherent" "sinister" "ferrous" "indicative" "nightmarish" "dismal"
+   "arrogant" "sorcerous" "indigenous" "native" "mere" "domestic"])
 
 (def nouns
   ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
@@ -60,7 +63,9 @@
    "gesture" "meaning" "content" "shader" "fragment" "subordinate" "selection"
    "election" "booth" "limb" "whim" "cognate" "injury" "bridge" "penalty"
    "blueprint" "flange" "body" "flesh" "fringe" "genius" "kind" "urge"
-   "paradigm" "gem" "snake" "pod" "role"])
+   "paradigm" "gem" "snake" "pod" "role" "semantics" "destruction" "habit"
+   "passion" "economy" "bottom" "model" "editor" "injection" "poem" "song"
+   "humanity" "mandible" "indictment" "evidence" "fugue"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -90,4 +95,4 @@
    "manifest" "exhibit" "display" "translate" "bind" "subvert" "find" "locate"
    "select" "reject" "detect" "inject" "elect" "poll" "afflict" "inflict"
    "design" "prepare" "partition" "subjugate" "improve" "suppress" "subdue"
-   "furnish" "announce" "denounce" "deny"])
+   "furnish" "announce" "denounce" "deny" "become" "evaluate" "insinuate"])
