@@ -60,13 +60,18 @@
     2/5 (couldnt-clause)
     nil))
 
-(defn subordinate-clause []
+(defn context-clause []
   (when (> (rand) 1/2)
     (str (rand-nth ["for" "of" "in" "at"]) " " (noun))))
 
-(defn suffix []
+(defn expected-clause []
+  (when (> (rand) 2/3)
+    (str "(expected " (noun-phrase) ", got " (noun-phrase) ")")))
+
+(defn location-clause []
   (when (> (rand) 2/3)
     (str "(" (rand-int 500) ":" (rand-int 100) ")")))
 
 (defn error []
-  (span (prefix) (midfix) (badjective') (noun-phrase) (subordinate-clause) (suffix)))
+  (span (prefix) (midfix) (badjective') (noun-phrase) (context-clause)
+        (or (location-clause) (expected-clause))))
