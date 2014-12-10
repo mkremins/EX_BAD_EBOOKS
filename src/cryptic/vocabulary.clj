@@ -28,7 +28,10 @@
    "significant" "recursive" "patriarchal" "violent" "merciful" "lewd" "rude"
    "reclusive" "innocuous" "staid" "vituperative" "abrasive" "disheveled"
    "incoherent" "sinister" "ferrous" "indicative" "nightmarish" "dismal"
-   "arrogant" "sorcerous" "indigenous" "native" "mere" "domestic"])
+   "arrogant" "sorcerous" "indigenous" "native" "mere" "domestic" "excessive"
+   "flagrant" "crumbling" "faltering" "fell" "ghastly" "veiled" "virtual"
+   "joyous" "delirious" "paranoid" "mutual" "benign" "malevolent" "drab"
+   "mundane" "considerable" "credulous" "sacrificial" "specious" "savage"])
 
 (def nouns
   ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
@@ -65,7 +68,13 @@
    "blueprint" "flange" "body" "flesh" "fringe" "genius" "kind" "urge"
    "paradigm" "gem" "snake" "pod" "role" "semantics" "destruction" "habit"
    "passion" "economy" "bottom" "model" "editor" "injection" "poem" "song"
-   "humanity" "mandible" "indictment" "evidence" "fugue"])
+   "humanity" "mandible" "indictment" "evidence" "fugue" "parsimony" "tangent"
+   "policy" "strategy" "layer" "tool" "ruin" "crucible" "rubble" "furnace"
+   "bell" "thumb" "finger" "joint" "hinge" "head" "tail" "regime" "wing"
+   "crate" "container" "ghost" "spirit" "soul" "cancer" "delirium" "period"
+   "calendar" "agenda" "conspiracy" "calamity" "ritual" "society" "law"
+   "jurisdiction" "propriety" "dictionary" "consideration" "clasp" "species"
+   "field" "lever" "medium"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -95,4 +104,6 @@
    "manifest" "exhibit" "display" "translate" "bind" "subvert" "find" "locate"
    "select" "reject" "detect" "inject" "elect" "poll" "afflict" "inflict"
    "design" "prepare" "partition" "subjugate" "improve" "suppress" "subdue"
-   "furnish" "announce" "denounce" "deny" "become" "evaluate" "insinuate"])
+   "furnish" "announce" "denounce" "deny" "become" "evaluate" "insinuate"
+   "object to" "excise" "resist" "preserve" "maintain" "virtualize"
+   "consent to" "engage" "consider" "sacrifice" "destroy" "undo"])
