@@ -31,7 +31,9 @@
    "arrogant" "sorcerous" "indigenous" "native" "mere" "domestic" "excessive"
    "flagrant" "crumbling" "faltering" "fell" "ghastly" "veiled" "virtual"
    "joyous" "delirious" "paranoid" "mutual" "benign" "malevolent" "drab"
-   "mundane" "considerable" "credulous" "sacrificial" "specious" "savage"])
+   "mundane" "considerable" "credulous" "sacrificial" "specious" "savage"
+   "delectable" "ashen" "inappropriate" "sparse" "spare" "secondhand"
+   "adjoining" "dubious" "absurd" "sickening"])
 
 (def nouns
   ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
@@ -74,7 +76,9 @@
    "crate" "container" "ghost" "spirit" "soul" "cancer" "delirium" "period"
    "calendar" "agenda" "conspiracy" "calamity" "ritual" "society" "law"
    "jurisdiction" "propriety" "dictionary" "consideration" "clasp" "species"
-   "field" "lever" "medium"])
+   "field" "lever" "medium" "dirge" "deluge" "urn" "pile" "individuality"
+   "identity" "drug" "pool" "knowledge" "basis" "conviction" "mind"
+   "intelligence" "doubt" "nausea"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -106,4 +110,5 @@
    "design" "prepare" "partition" "subjugate" "improve" "suppress" "subdue"
    "furnish" "announce" "denounce" "deny" "become" "evaluate" "insinuate"
    "object to" "excise" "resist" "preserve" "maintain" "virtualize"
-   "consent to" "engage" "consider" "sacrifice" "destroy" "undo"])
+   "consent to" "engage" "consider" "sacrifice" "destroy" "undo" "enunciate"
+   "pronounce" "assert" "affirm" "declare" "pardon"])
