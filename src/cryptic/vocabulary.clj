@@ -24,7 +24,7 @@
    "androgynous" "insidious" "insipid" "infallible" "optional" "impossible"
    "innumerable" "numberless" "suggestive" "autosomal" "dominant" "somnolent"
    "ambulatory" "fastidious" "persnickety" "inexplicable" "obsolete" "ancient"
-   "outdated" "domestic" "deviant" "immodest" "foreign" "sturdy" "impressive"
+   "outdated" "deviant" "immodest" "foreign" "sturdy" "impressive" "facile"
    "significant" "recursive" "patriarchal" "violent" "merciful" "lewd" "rude"
    "reclusive" "innocuous" "staid" "vituperative" "abrasive" "disheveled"
    "incoherent" "sinister" "ferrous" "indicative" "nightmarish" "dismal"
@@ -33,7 +33,8 @@
    "joyous" "delirious" "paranoid" "mutual" "benign" "malevolent" "drab"
    "mundane" "considerable" "credulous" "sacrificial" "specious" "savage"
    "delectable" "ashen" "inappropriate" "sparse" "spare" "secondhand"
-   "adjoining" "dubious" "absurd" "sickening"])
+   "adjoining" "dubious" "absurd" "sickening" "prodigious" "primitive"
+   "schismatic" "fractious"])
 
 (def nouns
   ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
@@ -78,7 +79,9 @@
    "jurisdiction" "propriety" "dictionary" "consideration" "clasp" "species"
    "field" "lever" "medium" "dirge" "deluge" "urn" "pile" "individuality"
    "identity" "drug" "pool" "knowledge" "basis" "conviction" "mind"
-   "intelligence" "doubt" "nausea"])
+   "intelligence" "doubt" "nausea" "nomenclature" "traversal" "circumstances"
+   "surroundings" "environment" "strut" "guilt" "family" "malfeasance" "dome"
+   "sphere" "orb" "fact" "schism" "comeuppance" "zodiac"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -111,4 +114,6 @@
    "furnish" "announce" "denounce" "deny" "become" "evaluate" "insinuate"
    "object to" "excise" "resist" "preserve" "maintain" "virtualize"
    "consent to" "engage" "consider" "sacrifice" "destroy" "undo" "enunciate"
-   "pronounce" "assert" "affirm" "declare" "pardon"])
+   "pronounce" "assert" "affirm" "declare" "pardon" "suspend" "excuse"
+   "renounce" "amplify" "traverse" "bypass" "ensnare" "encircle" "tabulate"
+   "support" "prop up" "possess" "rehabilitate" "redeem" "facilitate"])
