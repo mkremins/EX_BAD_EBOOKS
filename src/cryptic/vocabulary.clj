@@ -18,7 +18,7 @@
    "inarticulate" "immutable" "indirect" "monadic" "variadic" "inevitable"
    "colossal" "mellifluous" "recondite" "abstruse" "recalcitrant" "obstinate"
    "perverse" "defiant" "difficult" "wayward" "misleading" "inferior"
-   "laborious" "stereotypical" "obscure" "inscrutable" "excruciating"
+   "stereotypical" "obscure" "inscrutable" "excruciating"
    "phosphorescent" "unfinished" "unbalanced" "impartial" "unqualified"
    "derivative" "unoriginal" "particulate" "precarious" "unsubtle"
    "androgynous" "insidious" "insipid" "infallible" "optional" "impossible"
