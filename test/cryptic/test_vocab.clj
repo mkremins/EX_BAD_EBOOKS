@@ -2,6 +2,11 @@
   (:use clojure.test)
   (:require [cryptic.vocabulary :as vocab]))
 
+;; We define our own custom `duplicates` function instead of just using
+;; `(apply distinct? words)` in order to get more useful error messages in the
+;; event that one of the tests fails. `(apply distinct? words)` doesn't tell us
+;; *which* words are duplicated, whereas `duplicates` does.
+
 (defn duplicates [words]
   (loop [seen #{}
          dupes #{}
