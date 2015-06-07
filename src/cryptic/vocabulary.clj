@@ -34,10 +34,10 @@
    "mundane" "considerable" "credulous" "sacrificial" "specious" "savage"
    "delectable" "ashen" "inappropriate" "sparse" "spare" "secondhand"
    "adjoining" "dubious" "absurd" "sickening" "prodigious" "primitive"
-   "schismatic" "fractious"])
+   "schismatic" "fractious" "rigid" "catastrophic"])
 
 (def nouns
-  ["accusation" "admixture" "assumption" "argument" "axiom" "batch"
+  ["accusation" "admixture" "aesthetic" "assumption" "argument" "axiom" "batch"
    "constraint" "corpus" "gender" "fugitive" "party" "entity" "word" "rule"
    "number" "parameter" "operation" "suggestion" "advice" "insertion"
    "deletion" "removal" "access" "symbol" "variable" "formula" "request"
@@ -81,7 +81,10 @@
    "identity" "drug" "pool" "knowledge" "basis" "conviction" "mind"
    "intelligence" "doubt" "nausea" "nomenclature" "traversal" "circumstances"
    "surroundings" "environment" "strut" "guilt" "family" "malfeasance" "dome"
-   "sphere" "orb" "fact" "schism" "comeuppance" "zodiac"])
+   "sphere" "orb" "fact" "schism" "comeuppance" "zodiac" "utility" "mark"
+   "idea" "theory" "concern" "failure" "catastrophe" "faction" "menace"
+   "network" "platform" "instance" "mote" "machine" "mechanic" "familiar" "owl"
+   "game" "video" "engine" "flaw" "score" "player" "zipper" "amalgam"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -116,4 +119,5 @@
    "consent to" "engage" "consider" "sacrifice" "destroy" "undo" "enunciate"
    "pronounce" "assert" "affirm" "declare" "pardon" "suspend" "excuse"
    "renounce" "amplify" "traverse" "bypass" "ensnare" "encircle" "tabulate"
-   "support" "prop up" "possess" "rehabilitate" "redeem" "facilitate"])
+   "support" "prop up" "possess" "rehabilitate" "redeem" "facilitate" "demote"
+   "compose" "imagine"])
