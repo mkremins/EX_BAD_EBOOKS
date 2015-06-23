@@ -84,7 +84,9 @@
    "sphere" "orb" "fact" "schism" "comeuppance" "zodiac" "utility" "mark"
    "idea" "theory" "concern" "failure" "catastrophe" "faction" "menace"
    "network" "platform" "instance" "mote" "machine" "mechanic" "familiar" "owl"
-   "game" "video" "engine" "flaw" "score" "player" "zipper" "amalgam"])
+   "game" "video" "engine" "flaw" "score" "player" "zipper" "amalgam" "shape"
+   "farce" "habitat" "transgression" "synergy" "morphology" "floor" "plan"
+   "artifact" "omen" "glitch" "region" "garbage" "shell"])
 
 (def verbs
   ["elongate" "instantiate" "create" "wrap" "investigate" "mangle" "munge"
@@ -120,4 +122,5 @@
    "pronounce" "assert" "affirm" "declare" "pardon" "suspend" "excuse"
    "renounce" "amplify" "traverse" "bypass" "ensnare" "encircle" "tabulate"
    "support" "prop up" "possess" "rehabilitate" "redeem" "facilitate" "demote"
-   "compose" "imagine"])
+   "compose" "imagine" "infect" "infest" "interrogate" "probe" "classify"
+   "produce" "clip through" "copy" "purify" "imitate"])
