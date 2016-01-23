@@ -1,4 +1,5 @@
 abscond with
+absorb
 accept
 acquire
 affirm
@@ -17,9 +18,11 @@ attempt
 become
 betray
 bind
+breed
 bypass
 calcify
 call
+categorize
 cause
 clarify
 classify
@@ -27,6 +30,7 @@ clip through
 clone
 commandeer
 commit
+commune with
 compile
 comply with
 compose
@@ -54,7 +58,9 @@ describe
 design
 destroy
 detect
+develop
 devise
+differentiate
 disambiguate
 discard
 disentangle
@@ -120,19 +126,23 @@ grok
 guess
 hack
 handle
+hybridize
 ignore
 imagine
 imitate
 imply
 imprecate
 impregnate
+impress
 imprison
 improve
+incentivize
 indicate
 infect
 infer
 infest
 inflict
+ingest
 inhabit
 inject
 insert
@@ -155,7 +165,10 @@ manifest
 memoize
 munge
 negate
+nourish
+nurture
 object to
+objectify
 occupy
 omit
 operate
@@ -163,6 +176,7 @@ pardon
 parse
 partition
 pass
+pause
 perceive
 perform
 persuade
@@ -187,6 +201,7 @@ quit
 read
 realize
 receive
+recognize
 recur to
 redeem
 redirect
@@ -218,6 +233,7 @@ stigmatize
 stop
 subdue
 subjugate
+substantiate
 subvert
 suggest
 support

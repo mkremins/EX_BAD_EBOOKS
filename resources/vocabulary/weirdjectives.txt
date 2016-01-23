@@ -12,6 +12,7 @@ ambivalent
 ambulatory
 ancient
 androgynous
+anxious
 arable
 arcane
 archaic
@@ -21,6 +22,7 @@ ashen
 autosomal
 benevolent
 benign
+cacophonous
 catastrophic
 colossal
 considerable
@@ -34,8 +36,10 @@ delirious
 derivative
 deviant
 difficult
+discordant
 disheveled
 dismal
+dissident
 domestic
 dominant
 drab
@@ -49,6 +53,7 @@ factual
 falsifiable
 faltering
 fastidious
+fatal
 fatuous
 fell
 ferrous
@@ -61,7 +66,9 @@ gelatinous
 ghastly
 grandiose
 gratuitous
+grim
 hasty
+heterogenous
 illegible
 immodest
 immutable
@@ -146,16 +153,19 @@ sickening
 significant
 sinister
 skeptical
+solid
 somnolent
 sorcerous
 spare
 sparse
 specious
+spurious
 staid
 stereotypical
 strange
 sturdy
 suboptimal
+sudden
 suggestive
 superfluous
 unbalanced
@@ -163,8 +173,10 @@ undecidable
 unfinished
 unfriendly
 unoriginal
+unorthodox
 unqualified
 unrecoverable
+unstable
 unsubtle
 vacillating
 variadic
