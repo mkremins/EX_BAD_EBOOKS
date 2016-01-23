@@ -12,8 +12,7 @@ The project follows a fairly typical structure:
 
 * `src/cryptic/bot.clj` contains the `-main` method that actually launches the bot, using [cronj](https://github.com/zcaudate/cronj) to schedule a repeating task that uses [twitter-api](https://github.com/adamwynne/twitter-api) to tweet a generated error message.
 * `src/cryptic/generate.clj` contains the `error` function, which is responsible for actually generating error messages, and a number of helper functions that are used to generate specific parts of each message.
-* `src/cryptic/vocabulary.clj` contains lists of nouns, verbs, and two kinds of adjectives. The `cryptic.generate` namespace uses these lists to do its job.
-* `test/cryptic/test_vocab.clj` contains tests that are run against the bot's vocabulary. Since words are added to the vocabulary by hand, it's helpful to have an automatic check that ensures none of the words are duplicated.
+* `src/cryptic/vocabulary.clj` loads lists of nouns, verbs, and two kinds of adjectives from `resources/vocabulary`. The `cryptic.generate` namespace uses these lists to do its job.
 * `Procfile` is a configuration file that tells [Heroku](https://www.heroku.com/) (on which EX_BAD_EBOOKS is currently hosted) how exactly to start the bot.
 
 ## License

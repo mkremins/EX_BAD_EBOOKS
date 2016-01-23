@@ -1,0 +1,10 @@
+ambiguous
+bad
+deprecated
+illegal
+improper
+incorrect
+insufficient
+invalid
+malformed
+missing
