@@ -1,5 +1,6 @@
 abhorrent
 abrasive
+absent
 abstract
 abstruse
 absurd
@@ -33,6 +34,7 @@ defiant
 delectable
 deliberate
 delirious
+derelict
 derivative
 deviant
 difficult
@@ -50,6 +52,7 @@ excessive
 excruciating
 facile
 factual
+false
 falsifiable
 faltering
 fastidious
@@ -168,6 +171,7 @@ suboptimal
 sudden
 suggestive
 superfluous
+tenuous
 unbalanced
 undecidable
 unfinished

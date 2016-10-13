@@ -2,12 +2,14 @@ abscond with
 absorb
 accept
 acquire
+adjust
 affirm
 afflict
 ameliorate
 amortize
 amplify
 analyze
+annotate
 announce
 appropriate
 arrogate
@@ -55,11 +57,13 @@ denounce
 deny
 derive
 describe
+desecrate
 design
 destroy
 detect
 develop
 devise
+devour
 differentiate
 disambiguate
 discard
@@ -82,6 +86,7 @@ embrace
 emit
 encapsulate
 encase
+enchant
 encircle
 enclose
 endure
@@ -91,6 +96,7 @@ enshrine
 ensnare
 ensure
 enthrall
+entomb
 enumerate
 enunciate
 envision
@@ -110,6 +116,7 @@ exhibit
 explain
 expunge
 extinguish
+fabricate
 facilitate
 falsify
 find
@@ -128,6 +135,7 @@ hack
 handle
 hybridize
 ignore
+illuminate
 imagine
 imitate
 imply
@@ -155,6 +163,7 @@ invent
 investigate
 invoke
 jump to
+lay claim to
 lex
 link
 locate
@@ -163,6 +172,7 @@ maintain
 mangle
 manifest
 memoize
+modify
 munge
 negate
 nourish
@@ -200,6 +210,7 @@ question
 quit
 read
 realize
+reap
 receive
 recognize
 recur to

@@ -67,6 +67,7 @@ commodity
 component
 concern
 condition
+conjecture
 consequent
 consideration
 conspiracy
@@ -168,6 +169,7 @@ hierarchy
 hinge
 humanity
 hypotenuse
+hypothesis
 icon
 idea
 identity
@@ -197,6 +199,7 @@ keyword
 kind
 knowledge
 lambda
+landscape
 language
 lattice
 law
@@ -257,6 +260,7 @@ orb
 overflow
 owl
 package
+page
 panoply
 panopticon
 paradigm
@@ -338,6 +342,7 @@ shader
 shape
 shell
 signal
+site
 snake
 society
 song
@@ -371,6 +376,7 @@ task
 taxon
 taxonomy
 test
+theorem
 theory
 thread
 thumb
